@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  /* background-color: #202124; */
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+
+.App {
+  display: flex;
+  width: 625px;
+  height: 360px;
+}
+input {
+  border: 1px solid #8ab4f8;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #bdc1c6;
+  font-size: 14px;
+  height: 40px;
+  background-color: transparent;
+  width: 100%;
+}
+.output,
+.input {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+textarea {
+  background-color: transparent;
+  color: #bdc1c6;
+  border: none;
+  resize: none;
+  padding: 18px;
+  width: 200px !important;
+  height: 146px;
+  border-radius: 10px;
+  outline: none;
+  overflow: auto;
+  font-size: 28px;
+  margin-top: 10px;
+}
+
+.output textarea {
+  background-color: #303134;
+}
+.select-drop-down input {
+  padding: 5px 15px;
+  font-size: 15px;
+  color: #8ab4f8;
+}
+
+.select-drop-down .down-arrow svg {
+  position: relative;
+  left: 255px;
+  top: -25px;
+  width: 26px;
+  height: 16px;
+  fill: #8ab4f8;
+}
+
+.two-sided-arrow {
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+}
+.two-sided-arrow svg {
+  display: block;
+}
